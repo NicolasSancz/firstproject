@@ -1,0 +1,7 @@
+public static void main(String[] args) {
+        Animal myDog = new Dog("Buddy");
+        Animal myCat = new Cat("Kitty");
+
+        myDog.makeSound(); // Output: Buddy says: Woof! Woof!
+        myCat.makeSound(); // Output: Kitty says: Meow! Meow!
+    }
